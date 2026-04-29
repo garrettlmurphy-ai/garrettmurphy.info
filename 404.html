@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — Garrett Murphy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0C0E11;
+            --text-primary: #E8E6E1;
+            --text-secondary: #9B978F;
+            --text-muted: #5E5B55;
+            --accent: #D4A054;
+            --serif: 'Instrument Serif', Georgia, serif;
+            --sans: 'DM Sans', -apple-system, sans-serif;
+            --mono: 'JetBrains Mono', monospace;
+        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--sans);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 2rem;
+            -webkit-font-smoothing: antialiased;
+        }
+        .code {
+            font-family: var(--mono);
+            font-size: 0.7rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+        }
+        h1 {
+            font-family: var(--serif);
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+        p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+        }
+        a {
+            font-family: var(--mono);
+            font-size: 0.78rem;
+            color: var(--accent);
+            text-decoration: none;
+            border: 1px solid rgba(212, 160, 84, 0.3);
+            padding: 0.6rem 1.4rem;
+            border-radius: 8px;
+            transition: all 0.25s ease;
+        }
+        a:hover {
+            background: rgba(212, 160, 84, 0.12);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="code">404 — Not Found</div>
+        <h1>Nothing here.</h1>
+        <p>The page you're looking for doesn't exist or has been moved.</p>
+        <a href="/">← Back home</a>
+    </div>
+</body>
+</html>
